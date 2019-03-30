@@ -1,7 +1,6 @@
 import XCTest
+@testable import FileReaderTests
 
-import FileReaderTests
-
-var tests = [XCTestCaseEntry]()
-tests += FileReaderTests.allTests()
-XCTMain(tests)
+XCTMain([
+    testCase(FileReaderTests.allTests),
+])
