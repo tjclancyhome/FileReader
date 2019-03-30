@@ -8,4 +8,8 @@ public class FileReader {
 
     return try? String(contentsOf: fileURL, encoding: .utf8)
   }
+
+  public func readit(fileName: String) -> String? {
+    return "content read.";
+  }
 }
