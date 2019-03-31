@@ -1,5 +1,5 @@
-import XCTest
 @testable import FileReader
+import XCTest
 
 final class FileReaderTests: XCTestCase {
   func testExample() {

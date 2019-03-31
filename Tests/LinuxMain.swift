@@ -1,6 +1,6 @@
-import XCTest
 @testable import FileReaderTests
+import XCTest
 
 XCTMain([
-    testCase(FileReaderTests.allTests),
+  testCase(FileReaderTests.allTests),
 ])
